@@ -1,4 +1,3 @@
-# 追觅涂鸦触发 add-on（中国区涂鸦 Pulsar + excretion_time_day 触发追觅）
 ARG BUILD_FROM
 FROM ${BUILD_FROM:-python:3.11-slim}
 
