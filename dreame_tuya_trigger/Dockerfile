@@ -1,5 +1,5 @@
-ARG BUILD_FROM
-FROM ${BUILD_FROM:-python:3.11-slim}
+# 直接使用 Docker Hub 多架构 Python 镜像，避免依赖 r.hassbus.com 等不可用基础镜像
+FROM python:3.11-slim
 
 WORKDIR /app
 
