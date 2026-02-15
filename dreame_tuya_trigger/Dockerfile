@@ -11,7 +11,7 @@ COPY run.sh /run.sh
 RUN chmod +x /run.sh
 
 LABEL \
-    io.hass.version="1.0.0" \
+    io.hass.version="1.0.1" \
     io.hass.type="addon" \
     io.hass.arch="armhf|armv7|aarch64|i386|amd64"
 

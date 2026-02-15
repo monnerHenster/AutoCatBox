@@ -1,6 +1,6 @@
 name: 追觅涂鸦触发
 description: 订阅涂鸦消息，当设备上报 code=excretion_time_day 时自动调用追觅划区清扫（中国区 Pulsar）
-version: "1.0.0"
+version: "1.0.1"
 slug: dreame_tuya_trigger
 arch:
   - aarch64
