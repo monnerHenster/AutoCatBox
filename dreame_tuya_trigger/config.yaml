@@ -7,6 +7,7 @@ arch:
   - amd64
   - armv7
   - armhf
+  - i386
 init: false
 homeassistant_api: true
 options:
@@ -25,4 +26,5 @@ schema:
   ha_url: str
   ha_token: str
   vacuum_entity_id: str
-  segments: list
+  segments:
+    - int
