@@ -10,6 +10,9 @@ arch:
   - i386
 init: false
 homeassistant_api: true
+ports:
+  "8099/tcp": 8099
+webui: "http://[HOST]:[PORT:8099]/"
 options:
   tuya_access_id: ""
   tuya_access_key: ""
